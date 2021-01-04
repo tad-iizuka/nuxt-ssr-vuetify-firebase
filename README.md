@@ -28,6 +28,9 @@ $ cd functions
 $ npm install
 $ cd ..
 
+# change node version (if you don't have nvm or node, please install it before build.)
+$ nvm use v12.20.0
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
