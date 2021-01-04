@@ -1,4 +1,4 @@
-# nuxt-ssr-vuetify
+# nuxt-ssr-vuetify-firebase
 
 ## Nuxt + SSR + Vuetify + Firebase
 
