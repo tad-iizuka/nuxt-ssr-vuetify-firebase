@@ -1,0 +1,31 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.3",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.2",
+    "firebase": "^8.2.1",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.11.0",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
