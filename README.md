@@ -1,6 +1,6 @@
 # nuxt-ssr-vuetify
 
-## Create .env for your firebase project
+## Nux + SSR + Vuetify + Firebase
 
 ```bash
 # create .env
